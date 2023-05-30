@@ -14,19 +14,19 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Agora UNplugged")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "RIDER MUSIC BOT")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "6181817811").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TeamAgora/Unplugged")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/rid3r09/RIDER-MUSIC-XD-BOT")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/teamagora")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/agoraworld")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/dosto_ki_m3hfil")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/rider_music_support")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/8f609a79c64621ad00dd0.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/07ea11547079e32827059.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/abeb776313bf1bccf1de8.jpg",
+    "https://graph.org/file/e61efa8159e735f636e09.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/5ac765afa9758e04fcc85.jpg"
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://te.legra.ph/file/bfb034cc44a595bc2efe0.jpg"
+            PING_IMG_URL = "https://graph.org/file/e61efa8159e735f636e09.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/19effe725dd12a4159b6b.jpg"
+            START_IMG_URL = "https://graph.org/file/ebaf3e57a11d0996b6242.jpg"
