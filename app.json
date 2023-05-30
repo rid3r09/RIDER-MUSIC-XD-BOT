@@ -1,7 +1,7 @@
 {
     "name": "『˹MUSIC BOT˼』",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://te.legra.ph/file/fca643c6aceb4a530124f.jpg",
+    "logo": "https://graph.org/file/2034299582dc2be3d28e6.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "8117180",
+        "value": "13238713",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "34ce938c495ce1b2ae0e97fb237e8695",
+        "value": "265d1587c4ddac9e8bb77f7eca5f723e",
         "required": true
       },
       "BOT_TOKEN": {
@@ -29,17 +29,17 @@
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "mongodb+srv://kimjikoin:music@cluster0.bh3ioxk.mongodb.net/?retryWrites=true&w=majority",
+        "value": "mongodb+srv://knight_rider:GODGURU12345@knight.jm59gu9.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "『˹KIMJIKOIN MUSIC˼』",
+        "value": "𝄟ॐ❥𝗥𝗜𝗗𝗘𝗥🍷𝗠𝗨𝗦𝗜𝗖🍷𝗕𝗢𝗧⏤͟͟͞❥͜͡𝄟⃟🥀",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "6181817811",
+        "value": "1939017724",
         "required": true
       },
       "STRING_SESSION": {
