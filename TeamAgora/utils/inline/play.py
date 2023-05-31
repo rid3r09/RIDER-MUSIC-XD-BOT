@@ -212,7 +212,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text=_["S_B_5"],
-                url=f"https://t.me/AGORAXROBOT?startgroup=true",
+                url=f"https://t.me/RIDER_MUSIC_BOT?startgroup=true",
             ),
         ],
         [
@@ -241,7 +241,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="🦋 DEVELOPER 🦋", url="https://t.me/AGORAWORLD"
+                text="🦋 DEVELOPER 🦋", url="https://t.me/DOSTO_KI_M3HFIL"
             ),
         ],
          [
@@ -466,7 +466,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text=_["S_B_5"],
-                url=f"https://t.me/AGORAXROBOT?startgroup=true",
+                url=f"https://t.me/RIDER_MUSIC_BOT?startgroup=true",
             ),
         ],
         [
@@ -492,7 +492,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="🦋 DEVELOPER 🦋", url="https://t.me/AGORAWORLD"
+                text="🦋 DEVELOPER 🦋", url="https://t.me/DOSTO_KI_M3HFIL"
             ),
         ],
          [
@@ -520,7 +520,7 @@ def stream_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                 text=_["S_B_5"],
-                url=f"https://t.me/AGORAXROBOT?startgroup=true",
+                url=f"https://t.me/RIDER_MUSIC_BOT?startgroup=true",
             ),
         ],
         [
@@ -543,7 +543,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🦋 DEVELOPER 🦋", url="https://t.me/AGORAWORLD"
+                text="🦋 DEVELOPER 🦋", url="https://t.me/DOSTO_KI_M3HFIL"
             ),
         ],
          [
@@ -571,7 +571,7 @@ def telegram_markup(_, chat_id):
         [
             InlineKeyboardButton(
                 text=_["S_B_5"],
-                url=f"https://t.me/AGORAXROBOT?startgroup=true",
+                url=f"https://t.me/RIDER_MUSIC_BOT?startgroup=true",
             ),
         ],
         [
@@ -591,7 +591,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🦋 DEVELOPER 🦋", url="https://t.me/AGORAWORLD"
+                text="🦋 DEVELOPER 🦋", url="https://t.me/DOSTO_KI_M3HFIL"
             ),
         ],
          [
@@ -622,7 +622,7 @@ def track_markup(_,chat_id, videoid, user_id, channel, fplay):
         [
             InlineKeyboardButton(
                 text=_["S_B_5"],
-                url=f"https://t.me/AGORAXROBOT?startgroup=true",
+                url=f"https://t.me/RIDER_MUSIC_BOT?startgroup=true",
             ),
         ],
         [
@@ -637,7 +637,7 @@ def track_markup(_,chat_id, videoid, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="🦋 DEVELOPER 🦋", url="https://t.me/AGORAWORLD"
+                text="🦋 DEVELOPER 🦋", url="https://t.me/DOSTO_KI_M3HFIL"
             ),
         ],
         [
@@ -667,7 +667,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         [
             InlineKeyboardButton(
                 text=_["S_B_5"],
-                url=f"https://t.me/AGORAXROBOT?startgroup=true",
+                url=f"https://t.me/RIDER_MUSIC_BOT?startgroup=true",
             ),
         ],
         [
@@ -678,7 +678,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="🦋DEVELOPER🦋", url="https://t.me/AGORAWORLD"
+                text="🦋DEVELOPER🦋", url="https://t.me/DOSTO_KI_M3HFIL"
             ),
         ],
         [
@@ -697,7 +697,7 @@ def playlist_markup(_, chat_id, videoid, user_id, ptype, channel, fplay):
         [
             InlineKeyboardButton(
                 text=_["S_B_5"],
-                url=f"https://t.me/AGORAXROBOT?startgroup=true",
+                url=f"https://t.me/RIDER_MUSIC_BOT?startgroup=true",
             ),
         ],
         [
@@ -747,7 +747,7 @@ def slider_markup(
         [
             InlineKeyboardButton(
                 text=_["S_B_5"],
-                url=f"https://t.me/AGORAXROBOT?startgroup=true",
+                url=f"https://t.me/RIDER_MUSIC_BOT?startgroup=true",
             ),
         ],
         [
@@ -802,7 +802,7 @@ def queue_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                 text=_["S_B_5"],
-                url=f"https://t.me/AGORAXROBOT?startgroup=true",
+                url=f"https://t.me/RIDER_MUSIC_BOT?startgroup=true",
             ),
         ],
         [
@@ -825,7 +825,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🦋 DEVELOPER 🦋", url="https://t.me/AGORAWORLD"
+                text="🦋 DEVELOPER 🦋", url="https://t.me/DOSTO_KI_M3HFIL"
             ),
         ],
          [
