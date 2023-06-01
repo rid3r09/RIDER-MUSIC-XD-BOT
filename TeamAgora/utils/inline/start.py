@@ -26,7 +26,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text="🦋 UPDATES 🦋", url=f"https://t.me/RIDER_MUSIC_SUPPORT"),
             InlineKeyboardButton(
-                text="🦋 SUPPORT 🦋", url=f"{config.SUPPORT_GROUP}"
+                text="🦋 SUPPORT 🦋", url=f"{SUPPORT_GROUP}"
             ),
         ],
      ]
@@ -49,7 +49,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = "https://t.me/XO_TE
         [
             InlineKeyboardButton(text="🦋 UPDATE 🦋", url=f"https://t.me/RIDER_MUSIC_SUPPORT"),
             InlineKeyboardButton(
-                text="🦋 SUPORT 🦋", url=f"{config.SUPPORT_GROUP}"
+                text="🦋 SUPORT 🦋", url=f"{SUPPORT_GROUP}"
             ),
         ],
         [
