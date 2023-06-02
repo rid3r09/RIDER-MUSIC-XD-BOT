@@ -59,7 +59,7 @@ async def helper_private(
         language = await get_lang(chat_id)
         _ = get_string(language)
         keyboard = help_pannel(_)
-        await update.reply_sticker("CAACAgUAAx0CbWlwNAACDklkc2uBqBOujzFw9b-z5edme2sNGwAC0wkAAr5AYFYt1GYr3HFlHi8E")
+        await update.reply_sticker("CAACAgUAAx0CdIFZcwACCVBkei_4OJM5UDlCfwtTQ6LcvMTKSwACWQUAAm4qcVdjX2gaqDkvHB4E")
         await update.reply_photo(
             photo=config.START_IMG_URL,
             caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard)
